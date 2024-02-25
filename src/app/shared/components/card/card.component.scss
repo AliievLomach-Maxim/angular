@@ -1,0 +1,15 @@
+.card {
+  &-container {
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.199);
+    width: 300px;
+    margin: 20px auto;
+  }
+  &-title {
+    font-weight: bold;
+  }
+  &-description {
+    font-style: italic;
+  }
+}

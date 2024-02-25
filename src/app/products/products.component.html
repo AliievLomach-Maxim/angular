@@ -1,0 +1,6 @@
+<div class="products-container">
+  <app-card [title]="product.title" *ngFor="let product of products">
+    <p>{{ product.description }}</p>
+    <button>{{ product.price }} $</button>
+  </app-card>
+</div>
